@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.body {
+    width: 300px;
+    height: 100px;
+}
+
+.button-group {
+    display: flex;
+}
+
+.button-group>* {
+    margin-right: 10px;
+}
+
+.error {
+    color: red;
+}
